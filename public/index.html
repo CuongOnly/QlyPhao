@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logoVSP.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Quản lý đăng ký phao</title>
+    <!-- <script type="text/javascript">
+      window.myconfig = {
+          localLogin: 1,
+          SERVER: "http://localhost:5013/",
+          SERVER_URL: "http://localhost:5013/api/",
+
+          SPAVersion: "1.0.0",
+          SERVER2: "http://localhost:5013/",
+          SERVER_URL2: "http://localhost:5013/api/",
+          SERVER1: "",
+          SERVER_URL1: "/api/",
+      };
+    window.SoftCode = "VIS";
+    window.JwtTokenTag = "VIS_JWT";
+  </script> -->
+    <!-- Libary xu ly sso -->
+
+    <script type="text/javascript">
+      window.myconfig = {
+        localLogin: 1,
+        SERVER: "http://localhost:3010/",
+        SERVER_URL: "http://localhost:5012/api/",
+        SPAVersion: "1.0.0",
+        SERVER1: "https://lgsp.vishipel.vn/qlbao/1.0/",
+        SERVER_URL1: "https://lgsp.vishipel.vn/qlbao/1.0/api/",
+      };
+      window.SoftCode = "VIS";
+      window.JwtTokenTag = "VIS_JWT";
+
+      // sso
+      window.ssoConfig = {
+        signInRedirectURL: "http://localhost:3010",
+        signOutRedirectURL: "http://localhost:3010",
+        signInRedirectURL1: "https://datacongty.vishipel.vn/phanmem/index.html",
+        signOutRedirectURL1: "https://datacongty.vishipel.vn/phanmem/index.html",
+        clientID: "W27HU1VcKOQvNCU_n5iqJWbLs0Ia",
+        baseUrl: "https://ssoadmin.vishipel.vn",
+        scope: ["oidc", "email", "custom_scope"],
+        enableOIDCSessionManagement: true,
+      };
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

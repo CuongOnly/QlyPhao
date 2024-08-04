@@ -1,0 +1,94 @@
+.ant-col .ant-form-item-label {
+    padding: 0;
+}
+
+.ant-form-vertical .ant-form-item-label{
+    padding: 0;
+}
+
+/* Trong file CSS của bạn */
+
+/* Đảm bảo các nút trong footer có cùng chiều rộng */
+.ant-modal-footer .ant-btn {
+    width: 100%;
+  }
+  
+  /* .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+  }
+  
+  .ant-btn {
+    background-color: #0341c7;
+    border-color: #0341c7;
+    color: #fff;
+  }
+  
+  .ant-modal-content {
+    max-width: 400px;
+  }
+  
+  .ant-modal-header {
+    padding: 16px 24px;
+  }
+   */
+  /* ModalUpdateStt */
+   .container {
+    background-color: #f5f5f5;
+    padding: 5px;
+    margin-top: 15px;
+  }
+  
+  .event-info {
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: #f5f5f5;
+  }
+  .custom-dropdown .ant-select-item-option:hover,
+.custom-dropdown .ant-select-item-option:focus {
+  background-color: #f5f5f5; /* Màu khi hover hoặc focus */
+  border: 1px solid #1890ff; /* Viền khi hover hoặc focus */
+}
+
+.option-red:hover,
+.option-red:focus {
+  background-color: #fff0f0; /* Màu khi hover hoặc focus */
+  border: 1px solid #ff4d4f; /* Viền khi hover hoặc focus */
+}
+
+.option-orange:hover,
+.option-orange:focus {
+  background-color: #fff7e6; /* Màu khi hover hoặc focus */
+  border: 1px solid #ffa940; /* Viền khi hover hoặc focus */
+}
+
+.option-blue:hover,
+.option-blue:focus {
+  background-color: #e6f7ff; /* Màu khi hover hoặc focus */
+  border: 1px solid #40a9ff; /* Viền khi hover hoặc focus */
+}
+
+.option-green:hover,
+.option-green:focus {
+  background-color: #f6ffed; /* Màu khi hover hoặc focus */
+  border: 1px solid #73d13d; /* Viền khi hover hoặc focus */
+}
+
+
+.create-button {
+  padding: 30px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #286090;
+  color: #fff;
+  border-radius: 50%;
+  border: none; 
+}
+
+.create-button span {
+  font-size: 38px;
+}

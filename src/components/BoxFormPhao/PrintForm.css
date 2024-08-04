@@ -1,0 +1,134 @@
+.f-s-8{
+  font-size: 8px;
+}
+.f-s-10{
+  font-size: 10px;
+}
+.f-s-16{
+  font-size: 16px;
+}
+.f-w{
+  font-weight: bold;
+}
+.italic{
+  font-style: italic;
+}
+.w-8cm{
+  width: 8cm;
+}
+.w-12cm{
+  width: 12cm;
+}
+.fl-left{
+  float: left;
+}
+
+.d-flex{
+  display: flex;
+}
+.j-c-bw{
+  justify-content: space-between;
+}
+.j-c-ar{
+  justify-content: space-around;
+}
+.t-al-center{
+  text-align: center;
+}
+.mg-l-10px{
+  margin-left: 10px;
+}
+.mg-l-4rem{
+  margin-left: 4rem;
+}
+
+.printForm{
+  box-sizing: border-box;
+  margin: 0;
+  height: 100%;
+  width: 800px;
+  background-color: #f5f5f5;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-top: 1px solid;
+}
+.BanKhai{
+  text-align: center;
+  line-height: 5px;
+  padding-top: 20px;
+}
+.container1{
+  background-color: white;
+  border-bottom: 1px solid;
+}
+
+.content{
+
+}
+.content table{
+  border-bottom: 1px solid ;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+.content .td_Table{
+  height: 20px;
+    width: 30px;
+    border-right: 1px solid;
+    padding: 0;
+}
+.content .containerCheck{
+  display: flex;
+  justify-content: space-between;
+}
+.content .model_sri{
+  
+}
+
+.Emergency {
+  text-align: center;
+}
+
+.emergency-contact-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.emergency-contact-table th,
+.emergency-contact-table td {
+  border: 1px solid black;
+  padding: 2px;
+  text-align: left;
+}
+
+.emergency-contact-table th {
+  background-color: #f2f2f2;
+}
+
+.emergency-contact-table td {
+  vertical-align: top;
+}
+
+.emergency-contact-table td br {
+  margin-bottom: 5px;
+}
+
+.SignAndSeal {
+  text-align: center;
+  margin: 20px;
+}
+
+.left-section,
+.right-section {
+  width: 45%;
+  align-items : center
+}
+
+.sign-seal {
+  justify-content: space-between;
+}
+
+.sign-seal-section {
+  width: 45%;
+  text-align: center;
+}
